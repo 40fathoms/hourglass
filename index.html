@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hourglass</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <h1>Hourglass Challenge</h1>
+
+    <div class="hourglass-new">
+        <h3>Choose a new value for "n" - it must be an even number bigger than 20.</h3>
+        <input type="text" min="20" name="new_n" id="new_n" class="hourglass-input">
+        <button class="hourglass-button">Create a new hourglass</button>
+    </div>
+
+    <div class="hourglass-display">
+        <p style="white-space: pre-wrap" class="hourglass"></p>
+        <p class="hourglass-n"></p>
+    </div>
+
+    <div class="hourglass-animation">
+        <button class="hourglass-animation-start">Start / Pause the animation</button>
+        <button class="hourglass-animation-reset">Reset</button>
+    </div>
+
+
+    <script src="./hourglass.js"></script>
+</body>
+
+</html>
